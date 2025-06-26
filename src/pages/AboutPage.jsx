@@ -3,10 +3,10 @@ import Header from "../components/Header/Header";
 
 const AboutPage = () =>{
     return(
-        <div>
+        <div className="back-page">
             <Header/>
-            <div>
-                <h1 className="main">About Vivekanand College</h1>
+            <div className="page-container" style={{ overflow: "auto" }}>
+                  <h1 clssName="animate-fade-in-up">About Vivekanand College</h1>
           <p>
             Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering transformative education since its inception in [Year of Establishment, e.g., 1980]. Located in the bustling heart of [City/Area, e.g., Chembur, Mumbai], our college has consistently strived to uphold the highest standards of academic rigor and ethical values.
           </p>

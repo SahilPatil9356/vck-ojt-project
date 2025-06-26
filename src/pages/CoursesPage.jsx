@@ -7,9 +7,9 @@ import CollegeTourVideo from '/public/videos/college-tour.mp4'; // Your imported
 import Footer from "../components/Footer/Footer";
 const CoursesPage = () => {
     return (
-      <div>
+      <div className="back-page">
         <Header/>
-   <div style={{ padding: '1rem' }} className="home-scroll-container">
+   <div  className="page-container" style={{ overflow: "auto" }}>
    
     <h1 className='h1'>Our Academic Programs</h1>
     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
@@ -93,7 +93,7 @@ const CoursesPage = () => {
       In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.
     </p>
  <h5 class="note">
-      Explore detailed syllabi and admission criteria on our Admissions page.
+      Explore detailed syllabus and admission criteria on our Admissions page.
     </h5>
 
     <a href='/contact'  class="cta-button">Enquire About Courses</a>

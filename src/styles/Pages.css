@@ -1,6 +1,9 @@
 /* src/pages/pages.css  */
 .back-page {
   background-color: aqua;
+  overflow: hidden;
+  
+
 }
 .page-container {
   max-width: 960px;
@@ -347,4 +350,11 @@
   .hero-overlay-text p {
     font-size: 0.9em;
   }
+}
+
+.cta-button {
+   background-color: #28A745;
+  font-size: 1.2em;
+  padding: 15px 30px;
+
 }

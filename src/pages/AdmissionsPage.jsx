@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 const AdmissionsPage = () => {
   return (
-    <div>
+    <div className="back-page">
         <Header/>
     <div className="page-container" style={{ overflow: "auto" }}>
       <h1>Admissions at Vivekanand College</h1>

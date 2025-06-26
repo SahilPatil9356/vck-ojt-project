@@ -5,9 +5,9 @@ import Footer from "../components/Footer/Footer";
 // Add more image imports if needed
 const HomePage = () => {
   return (
-    <div>
+    <div className="back-page">
       <Header/>
-      <div className="back-page"> 
+      <div> 
       
     <div className="page-container" style={{ overflow: "auto" }}>
       {/* Hero/Banner Section with Image */}
@@ -20,7 +20,7 @@ const HomePage = () => {
         <div className="hero-overlay-text">
           <h1>Welcome to Vivekanand College!</h1>
           <p>Your journey to excellence starts here.</p>
-          <Link to="/admission" className="btn hero-btn">
+          <Link to="/admissions" className="btn hero-btn">
             Apply Now!
           </Link>{" "}
         </div>

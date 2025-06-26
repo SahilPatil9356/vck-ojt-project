@@ -1,11 +1,11 @@
 #footer {
-  background-color: #0d0d0d;
+  background-color: GRAY;
   color: white;
   text-align: center;
   padding: 19px 0;
   font-size: 14px;
   margin-top: 40px;
-  width:100%;
+  
 }
 
 #footer-text a {

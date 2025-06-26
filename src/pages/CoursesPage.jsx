@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import '/src/styles/pages.css'
+import '/src/styles/Pages.css'
  // src/pages/CoursesPage.jsx
   import React from 'react';
 import { Link } from 'react-router-dom';

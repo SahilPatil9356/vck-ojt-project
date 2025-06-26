@@ -1,7 +1,7 @@
 /* src/pages/pages.css  */
 .back-page {
   background-color: aqua;
-  overflow: hidden;
+ 
   
 
 }
@@ -24,8 +24,8 @@
   color: #007BFF;
   /* Primary blue for headings */
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 2.5em;
+  margin-bottom: 2.5em;
+  font-size: 2.5;
 }
 
 .page-container h2 {
@@ -357,4 +357,14 @@
   font-size: 1.2em;
   padding: 15px 30px;
 
+}
+
+/* Remove horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Remove vertical scrollbar */
+body {
+  overflow-y: hidden;
 }
